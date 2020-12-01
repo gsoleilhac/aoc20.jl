@@ -1,5 +1,6 @@
 # aoc20
 
+![Github Actions](https://github.com/gsoleilhac/aoc20.jl/workflows/CI/badge.svg?branch=master)
 [![Build Status](https://travis-ci.com/gsoleilhac/aoc20.jl.svg?branch=master)](https://travis-ci.com/gsoleilhac/aoc20.jl)
 [![Codecov](https://codecov.io/gh/gsoleilhac/aoc20.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/gsoleilhac/aoc20.jl)
 
