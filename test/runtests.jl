@@ -8,8 +8,10 @@ end
 
 @testset "day1" begin
     @testset "part1" begin
+        @test part1(day = 1) == 1006875
     end
 
     @testset "part2" begin
+        @test part2(day = 1) == 165026160
     end
 end
