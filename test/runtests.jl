@@ -15,3 +15,21 @@ end
         @test part2(day = 1) == 165026160
     end
 end
+
+@testset "day2" begin
+    @testset "part1" begin
+        @test aoc20.day2.part1(["1-3 a: abaca"]) == 1
+        @test aoc20.day2.part1(["1-3 a: abaaca"]) == 0
+        @test aoc20.day2.part1(["1-3 a: bc"]) == 0
+        @test aoc20.day2.part1(["0-0 a: abaaca"]) == 0
+        @test part1(day = 2) == 506
+    end
+
+    @testset "part2" begin
+        @test aoc20.day2.part2(["1-3 a: abc"]) == 1
+        @test aoc20.day2.part2(["1-3 a: cba"]) == 1
+        @test aoc20.day2.part2(["1-3 a: aba"]) == 0
+        @test aoc20.day2.part2(["1-3 a: bac"]) == 0
+        @test part2(day = 2) == 443
+    end
+end
