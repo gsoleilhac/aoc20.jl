@@ -33,3 +33,18 @@ end
         @test part2(day = 2) == 443
     end
 end
+
+@testset "day3" begin
+    @testset "part1" begin
+        x = [ 0 0 0 0 0 ;
+              0 0 0 1 0 ;
+              0 1 0 0 0 ;
+              0 0 0 0 1]'
+        @test aoc20.day3.part1(x) == 3
+        @test part1(day = 3) == 257
+    end
+
+    @testset "part2" begin
+        @test part2(day = 3) == 1744787392
+    end
+end
