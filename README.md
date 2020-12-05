@@ -1,7 +1,6 @@
 # aoc20
 
 ![Github Actions](https://github.com/gsoleilhac/aoc20.jl/workflows/CI/badge.svg?branch=master)
-[![Build Status](https://travis-ci.com/gsoleilhac/aoc20.jl.svg?branch=master)](https://travis-ci.com/gsoleilhac/aoc20.jl)
 [![Codecov](https://codecov.io/gh/gsoleilhac/aoc20.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/gsoleilhac/aoc20.jl)
 
 ### Running
@@ -14,8 +13,10 @@ julia> part2(day = 1)
 julia> aoc20.benchmarkAll()
 ```
 
-| day | part1      | part2      |
-|-----|------------|------------|
-| 1   | 3.263 μs   | 535.800 μs |
-| 2   | 502.700 μs | 516.600 μs |
-| 2   | 2.867 μs   | 13.600 μs  |
+| day | parsing    | part1      | part2      |
+|-----|------------|------------|------------|
+| 1   | 63.800 μs  | 3.250 μs   | 514.200 μs |
+| 2   | 148.900 μs | 485.700 μs | 466.300 μs |
+| 3   | 142.800 μs | 2.867 μs   | 14.300 μs  |
+| 4   | 1.723 ms   | 54.400 μs  | 235.600 μs |
+| 5   | 27.739 ns  | 83.100 μs  | 102.900 μs |
