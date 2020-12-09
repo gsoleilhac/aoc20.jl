@@ -18,7 +18,7 @@ UnicodePlots = "b8865327-cd53-5732-bb35-84acbb429228"
 [compat]
 BenchmarkTools = "0.5"
 Combinatorics = "1.0"
-DataFrames = "0.22"
+DataFrames = "0.21, 0.22"
 ProgressMeter = "1.4"
 StatsBase = "0.33"
 UnicodePlots = "1.3"
